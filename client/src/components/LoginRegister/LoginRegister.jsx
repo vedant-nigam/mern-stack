@@ -46,11 +46,11 @@ const LoginRegister = ({ setLoginUser }) => {
                         loginRef.current.style.left = "-480px";
                         registerRef.current.style.left = "50px";
                         btnRef.current.style.left = "110px";
-                    }}>register</button>
+                    }}>Register</button>
                 </div>
                 <form ref={loginRef} id="login" action="" className="input">
                     <input type="text" className="input-f" placeholder="user-id" required />
-                    <input type="text" className="input-f" placeholder="enter-password" required />
+                    <input type="password" className="input-f" placeholder="enter-password" required />
                     <input type="checkbox" className="check-box" /><span>remember-password </span>
                     <button type="submit" className="submit-btn" onClick={login} >Log-in</button>
                 </form>
@@ -58,8 +58,9 @@ const LoginRegister = ({ setLoginUser }) => {
                     <input type="text" className="input-f" placeholder="user-id" required />
                     <input type="email" className="input-f" placeholder="email-id" required />
                     <input type="text" className="input-f" placeholder="enter-password" required />
-                    <input type="checkbox" className="check-box" /><span> i agree with the terms & conditions</span>
-                    <button type="submit" className="submit-btn">reister</button>
+                    {/* <input type="checkbox" className="check-box" /> */}
+                    {/* <span> i agree with the terms & conditions</span> */}
+                    <button type="submit" className="submit-btn">Register</button>
                 </form>
             </div>
         </div>
