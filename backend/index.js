@@ -6,7 +6,7 @@ const cors  = require('cors');
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());
-const port = process.env.PORT || 9002
+const port = process.env.PORT || 5000
 
 const mongoURL = ('mongodb+srv://vedant:vedant123@cluster0.ofu0ib7.mongodb.net/?retryWrites=true&w=majority')
 
@@ -19,7 +19,7 @@ mongoose.connect(mongoURL, {useNewUrlParser: true, useUnifiedTopology: true})
 })
 
 app.listen(port, ()=> {
-    console.log('hello from port 9002');
+    console.log('hello from port 5000');
 })
 
 require('./userDetails');

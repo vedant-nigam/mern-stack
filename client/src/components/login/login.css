@@ -1,34 +1,43 @@
 
 .login {
-    width: 400px;
-    background: #fff;
-    border: 1px solid #dddfe2;
+    font-size:3.5rem;
+    font-weight: bolder;
+     font-style: italic;
+    width: 600px;
+    background: rgb(115, 172, 207);
+    border: 1px solid #6742d6;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 1rem;
     align-items: center;
     text-align: center;
 }
 
 .login > input {
+    font-size: 2.5rem;
+    font-style: oblique;
     border-radius: 8px;
-    border: 2px solid #dddfe2;
+    border: 2px solid #4e5970;
     outline: none;
     color: #1d2129;
     margin: 0.5rem 0;
     padding: 0.5rem 0.75rem;
     width: 92%;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .login > .button {
+    font-style: oblique;
     background: #1877f2;
     border: 1px solid #1877f2;
-    color: #fff;
+    color: rgb(208, 212, 223);
     font-size: 1.25rem;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
+    padding: 1rem;
+    margin: 2rem 0;
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+}
+.btn{
+    font: size 1.5rem; 
 }

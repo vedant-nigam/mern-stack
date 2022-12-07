@@ -1,0 +1,50 @@
+.homepage {
+    font-style: var(#6742d6);
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgb(16, 67, 42);
+    background: rgb(12, 79, 88);
+    position: relative
+}
+
+.homepage > .button {
+    
+    cursor: pointer;
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: rgb(160, 156, 172);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.container{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic ;
+    text-align: center;
+}
+.btn{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.80rem;
+    border:2px solid   ;
+    border-radius: 2px;
+    align-items: center;
+    width: 20vw;
+    height: 6vw;
+    border-radius: 8px;
+    background-color: rgb(56, 181, 162);
+    cursor:pointer;
+    margin: 2vw 2vw;
+    
+    
+}
